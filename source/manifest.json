@@ -1,0 +1,12 @@
+{
+	"name": "MuteSqueezie",
+	"short_name": "MuteSqueezie",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "MuteSqueezie",
+	"content_scripts": [{
+		"matches": ["https://www.youtube.com/*","http://www.youtube.com/*","https://youtube.com/*","http://youtube.com/*"],
+		"js": ["blockSqueezie.js"]
+		}],
+	"permissions": ["<all_urls>"]
+}
