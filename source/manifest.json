@@ -1,12 +1,12 @@
 {
-	"name": "MuteSqueezie",
-	"short_name": "MuteSqueezie",
+	"name": "MuteCyprienGaming",
+	"short_name": "MuteCyprienGaming",
 	"version": "0.0.1",
 	"manifest_version": 2,
-	"description": "MuteSqueezie",
+	"description": "MuteCyprienGaming",
 	"content_scripts": [{
 		"matches": ["https://www.youtube.com/*","http://www.youtube.com/*","https://youtube.com/*","http://youtube.com/*"],
-		"js": ["blockSqueezie.js"]
+		"js": ["blockcypriengaming.js"]
 		}],
 	"permissions": ["<all_urls>"]
 }
